@@ -1,0 +1,33 @@
+# Environment variables / secrets
+.env
+
+# Virtual environment
+adisenv/
+venv/
+.venv/
+
+# Local ChromaDB files
+chroma_db/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter and editor state
+.ipynb_checkpoints/
+.vscode/
+
+# OS files
+Thumbs.db
+
+# Local source data (keep source code and notebooks tracked)
+*.txt
+*.pdf
+*.epub
+*.csv
+*.docx
+!requirements.txt
+!README.md
+ethiopian_history.txt
+ethiopian_history_backup.txt
+article.txt
